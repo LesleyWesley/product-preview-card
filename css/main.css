@@ -1,0 +1,15 @@
+:root {
+  --main-accent-clr: #3c8067;
+  --body-bg-clr: #f2ebe3;
+  --dark-text-clr: #1c232b;
+  --light-text-clr: #6c7289;
+  --card-bg-clr: 	#fff;
+
+  --serif-ff: "Fraunces", serif;
+  --sans-ff: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: var(--body-bg-clr);
+  font-family: var(--sans-ff);
+}
