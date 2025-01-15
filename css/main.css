@@ -52,6 +52,7 @@ main {
   border-radius: .75rem;
   flex-direction: column;
   overflow: hidden;
+  max-width: 375px;
 }
 
 .hero-image {
@@ -116,4 +117,27 @@ button:active,
 button:hover {
   cursor: pointer;
   background-color: var(--active-state-clr);
+}
+
+/*=====MEDIA QUERIES ======*/
+
+@media (min-width: 700px) {
+
+  body {
+    height: 100vh;
+  }
+
+  main {
+    flex-direction: row;
+    max-width: none;
+  }
+
+  .hero-image,
+  .info-div {
+    width:  50%;
+  }
+
+  .hero-image {
+    background: url("../images/image-product-desktop.jpg") no-repeat center/cover;
+  }
 }
